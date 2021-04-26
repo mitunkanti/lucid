@@ -1,0 +1,459 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+a, a:hover{
+	text-decoration: none;
+}
+/*******************************
+	Header Section CSS Start
+*******************************/
+header{
+	background: url(../img/header-background.png) center top no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100vh;	
+}
+
+.navbar-brand {
+	color: white !important;
+	font-weight: bold;
+	font-size: 24px;	
+}
+.navbar-brand span{
+	color: white !important;
+	font-size: 9px;
+	margin-left: 6px;
+	text-transform: uppercase;
+}
+
+.nav-link{
+	color: white !important;
+	margin-left: 16px;
+
+}
+.nav-link:hover{
+	color: #008ed6 !important;
+	background: url(../img/header-line.png) center bottom no-repeat;
+}
+.banner-text{
+	margin-left: 24px;
+	margin-top: 100px;
+}
+
+.banner-text h6{
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: #008ed6;
+}
+.banner-text h1{
+	font-size: 50px;
+	font-weight: 400;
+	color: white;
+	padding: 20px 0px ;
+}
+.banner-text p{
+	color: #646466;
+	font-size: 18px;
+}
+.banner-btn{
+	margin-top: 60px;
+}
+.banner-btn .btn-1 {
+	background: #008ed6;
+	color: white;
+	font-weight: 600;
+	font-size: 14px;
+	padding: 16px 24px;
+    border: none;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+.banner-btn .btn-2 {
+	background: transparent;
+	color: white;
+	font-weight: 600;
+	font-size: 14px;
+	padding: 16px 24px;
+    border: 1px solid gray;
+    border-radius: 3px;
+    text-transform: uppercase;
+    margin-left: 20px;
+}
+.banner-img {
+	
+	margin-top: 150px;
+
+}
+
+.banner-img img{
+	vertical-align: middle;
+}
+
+
+
+/*******************************
+	Features Section CSS Start
+*******************************/
+.features{
+	padding: 80px 0;
+}
+.features-top{
+	text-align: center;
+}
+.features-top h6{
+	color: #008ed6;
+	font-weight: 600;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+.features-top h1{
+	color: black;
+	font-weight: 600;
+	font-size: 36px;
+}
+
+.features-body {
+	margin-top: 60px;
+	text-align: center;
+}
+.features-body i{
+	width: 80px;
+    height: 80px;
+    line-height: 80px;
+    font-size: 42px;
+    color: #008ed6;
+    border-radius: 50%;
+    border: 2px solid #e1e1e1;
+    margin-bottom: 20px;
+}
+.features-body i:hover{
+	background: #008ed6;
+	color: white;
+}
+
+.features-body h3{
+	font-size: 24px;
+	font-weight: 400;
+}
+.features-body p{
+	font-size: 18px;
+	color: #646466;
+	width: 80%;
+	margin: auto;
+}
+.b-size{
+	padding: 20px;
+}
+.features-bottom-line{
+	margin-top: 60px;
+	border-bottom: 1px solid #e6dede;
+}
+
+/*******************************
+	Beautiful Section CSS Start
+*******************************/
+.beautiful{
+	width: 100%;
+	padding: 40px 0;
+}
+.beautiful-content{
+	 margin-top: 45px;
+}
+
+.beautiful-content h6{
+	color: #008ed6;
+	font-weight: 600;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+.beautiful-content h1{
+	font-size: 36px;
+	font-weight: 600;
+}
+.beautiful-content img{
+	
+}
+.beautiful-content p{
+	margin-top: 10px;
+	font-size: 18px;
+	color: #646466;
+	width: 87%;
+	margin-bottom: 35px;
+}
+.beautiful-icon ul{
+	list-style: none;
+	padding: 0;
+	margin: 0; 
+}
+.beautiful-icon ul li i{
+	color: #008ed6;
+	margin-top: 5px;
+}
+
+.beautiful-icon li span{
+	margin-left: 20px;
+	color: black;
+}
+
+/*******************************
+	Customize Section CSS Start
+*******************************/
+.customize{
+	width: 100%;
+	background-color: #f2f2f2;
+}
+.beautiful-content{
+	margin-top: 90px;
+}
+
+/*******************************
+	Pricing Section CSS Start
+*******************************/
+.pricing{
+	width: 100%;
+	background: url(../img/pricing-background.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 80px 0;
+}
+
+.pricing-top{
+	text-align: center;
+}
+.pricing-top h6{
+	color: #008ed6;
+	font-weight: 600;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+.pricing-top h1{
+	color: white;
+	font-weight: 400;
+	font-size: 36px;
+}
+.pricing-body{
+	margin-top: 90px;
+}
+ .pricing-body h4{
+	color: white;
+	font-weight: 600;
+	font-size: 24px;
+	font-style: italic;
+	margin-bottom: 40px;
+}
+.pricing-body .col-md-10{
+	text-align: left;
+	padding-left: 0;
+}
+.pricing-body .col-md-2{
+	padding-right: 0;
+}
+.col-md-10 span{
+	color: white;
+	font-weight: 400;
+	font-size: 16px;
+}
+.col-md-10 p{
+	color: white;
+	font-weight: 700;
+	font-size: 14px;
+}
+.pricing-footer{
+	text-align: center;
+	margin-top: 150px;
+}
+.slider-footer{
+	background: black;
+}
+
+/*******************************
+Slider Footer Section CSS Start
+*******************************/
+.slider-footer{
+    padding: 50px 0px;
+}
+.slider-footer .col-md-8 h4 span{
+	font-size: 36px;
+	font-weight: bold;
+	color: white;
+}
+.slider-footer .col-md-8 h4{
+	font-size: 36px;
+	color: white;
+}
+
+.slider-footer .col-md-2 button{
+    padding: 16px 24px;
+    background: transparent;
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+    border: 1px solid #5d5757;
+    border-radius: 3px;
+    font-weight: 600;
+}
+.slider-footer .col-md-2 .last{
+	background: #008ed6;
+}
+
+/*******************************
+	Quality Section CSS Start
+*******************************/
+.quality{
+	width: 100%;
+	padding: 80px 0;
+	text-align: center;
+}
+
+.quality-top{
+    border: 1px solid #c5c2c2;
+    padding: 16px 20px;
+     margin-top: 50px;
+}
+.quality-top h3{
+	font-size: 24px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.quality-body{
+	border-left: 1px solid #c5c2c2;
+	border-right: 1px solid #c5c2c2;
+    padding: 32px 20px;
+    position: relative;
+ }
+.first::before{
+	position: absolute;
+	content: "$";
+    left: 125px !important;
+    top: 37px !important;
+    font-size: 22px;
+}
+.quality-body::before{
+	position: absolute;
+	content: "$";
+    left: 112px;
+    top: 37px;
+    font-size: 22px;
+}
+.quality-body h1{
+	font-size: 48px;
+	font-weight: 600;
+
+}
+.quality-body p{
+	color: #c5c2c2;
+	font-size: 18px;
+}
+.quality-bottom {
+    border: 1px solid #c5c2c2;
+    padding: 37px 20px 50px 20px;
+}
+.quality-bottom p{
+	color: #c5c2c2;
+	font-size: 18px;
+	margin-bottom: 40px;
+}
+.quality-bottom p span{
+	color: #008ed6;
+}
+.quality-bottom button{
+    padding: 12px 42px;
+    background: transparent;
+    border: 1px solid #c5c2c2;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #008ed6;
+}	
+
+.p-table:hover .quality-top h3{
+	color: #008ed6;
+}
+
+.p-table:hover .quality-body{
+	background: #008ed6;
+}
+.p-table:hover .quality-body h1{
+	color: white;
+}
+.p-table:hover .quality-body p{
+	color: white;
+}
+.p-table:hover .quality-bottom button{
+	background: #008ed6;
+	color: white;
+}
+
+.p-table:hover .quality-body::before{
+	color: white;
+}
+
+
+/*******************************
+	Contact Us Section CSS Start
+*******************************/
+.contact-us{
+	width: 100%;
+	padding: 80px 0px;
+	background: #ededed;
+}
+.contact-us-address{
+	padding: 50px 0;
+	text-align: center;
+}
+.contact-us-address i{
+	color: #008ed6;
+	margin-bottom: 30px;
+}
+
+.contact-us-address i:hover{
+	color: black;
+	
+}
+.contact-us-address p{
+	color: gray;
+	font-size: 18px;
+}
+
+.contact-form{
+	background: black;
+    padding: 60px;
+    width: 60%;
+    margin: auto;
+}
+.form-control{
+	background: transparent !important;
+    outline: none !important;
+    border: 1px solid !important;
+    margin-bottom: 10px !important;
+    padding: 12px !important;
+}
+.area-size{
+	height: 170px !important;
+}
+.contact-btn{
+	background: #008ed6;
+    float: right;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    font-weight: 600;
+}
+.contact-f{
+	z-index: 9999 !important;
+}
+
+.map{
+	/*background: red;
+	padding: 80px;*/
+	z-index: -9999 !important ;
+	margin-top: -60px;
+}
+
